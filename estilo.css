@@ -1,0 +1,268 @@
+@charset "UTF-8";
+@font-face{
+	font-family: 'FonteOrkut';
+	src: url("itc-ronda.otf");
+}
+
+	body{
+		background-color: rgb(212, 221, 237);
+		font-family: Arial, sans-serif;
+	}
+
+
+	div#superior{
+		list-style: none;
+
+	}
+
+	nav#menu-1 li{
+		display: inline-block;
+		text-align: left;
+		font-size: 10pt;
+		margin: 0px 15px 0px -30px;
+		padding: 1px 25px 1px 1px; 
+		right: 1000px;
+		bottom: -10px;
+	}
+
+	.teste{
+		display: block;
+		border-top: 2px solid #749bd7;
+		margin-right: 150px;
+		background-color: #bfd0ea;
+		padding-bottom: 5px;
+
+	}
+
+
+	p#square-cima{
+		width: 0px;
+		height: 0px;
+		border-bottom: 40px solid #d4dded;
+		border-left: 40px solid transparent;
+		margin-left: 1150px;
+		margin-top: -29px;
+	}
+
+	p#diagonal-cima{
+		width: 0px;
+	    height: 0px;
+	    border-bottom: 15px solid #749bd7;
+	    border-left: 15px solid transparent;
+	    margin-left: 1175px;
+	    margin-top: -71px;
+
+	}
+
+
+	nav#menu-1 h1{
+		font-family: 'FonteOrkut', sans-serif;
+		font-weight: bold;
+		font-size: 25pt;
+		color: rgb(194, 72, 163);
+		left: 1200px;
+		margin-right: 10px;
+		margin-top: -55px;
+		border-top: 2px solid #749bd7;
+		margin-left: 1189px;
+		text-shadow: 0px 1px 2px #000;
+	}
+
+
+	section#corpo{
+		display: block;
+		width: 965px;
+		float: left;
+		background-color: white;
+		margin-left: 0.2px;
+		padding: 15px;
+
+	}
+
+	section#corpo p{
+		font-size: 11pt;
+		text-align: center;
+
+	}
+
+	span#orkut{
+		font-family: 'FonteOrkut', sans-serif;
+		font-weight: bold;
+		font-size: 20pt;
+		color: rgb(194, 72, 163)
+	}
+
+	p#beleza{
+		text-decoration: underline;
+		color: blue;
+	}
+
+	section#corpo img{
+		display: block;
+		position: relative;
+		left: 175px;
+	}
+
+	aside#direito{
+		display: block;
+		width: 320px;
+		float: right;
+		background-color: white;
+		border: 1px solid rgb(161, 186, 226);
+		padding: 3px;
+	}
+
+	form#formulario p{
+		text-align: center;
+		margin: 2px;
+		margin-top: 5px;
+	}
+
+	form#formulario p#cima{
+		margin: -3px -2px auto -2px;
+		background-color: rgb(229, 236, 244);
+		font-weight: bolder;
+		padding: 2px
+
+	}
+
+	fieldset#login{
+		list-style: none;
+		border: none;
+		margin-top: 15px;
+		display: block;
+		list-style: none;
+		margin-left: 0px;
+		margin-top: 10px;
+		font-size: 10pt;
+	}
+
+	fieldset#login li{
+		margin: 2px;
+	}
+
+	fieldset#login p#checagem{
+		margin-left: 22px;
+		margin-top: 5px;
+		text-align: left;
+	}
+
+
+
+	form#formulario p#dois{
+		font-size: 10pt;
+		margin-top: -0.3px;
+	}
+
+	form#formulario p#tres{
+		font-weight: bolder;
+		margin-left: -67px;
+		margin-top: 15px;
+	}
+
+	form#formulario p#tres span{
+		display: block;
+		position: absolute;
+		width: 65px;
+		left: 1183px;
+		top: 110px;
+	}
+
+	form#formulario p#submit{
+		margin: -7px -24px 55px -185px; 
+	}
+
+	div#login-submeter{
+		margin-left: 10px;
+	}
+
+	div#login-submeter p#submit{
+		display: block;
+		position: relative;
+		margin-left: 40px;
+		margin-top: -20px;
+	}
+
+	div#login-submeter p#esqueceu{
+		text-align: center;
+		font-size: 10pt;
+		text-decoration: underline;
+		color: blue;
+	}
+
+	div#login-submeter p#membro{
+		display: block;
+		text-align: center;
+		border-top: 3px solid rgb(161, 186, 226);
+		margin: 35px -5px auto -13px;
+		padding: 10px;
+		font-weight: bold;
+		font-size: 11pt;
+
+	}
+
+	div#login-submeter p#membro span{
+		text-decoration: underline;
+		color: blue; 
+	}
+
+	footer#inferior{
+		clear: both;
+	}
+
+	nav#menu-2 p{
+		display: inline-block;
+		position: relative;
+		float: bottom;
+		list-style: none;
+		margin-top: 25px;
+		margin-right: 3px;
+		
+	}
+
+	.esquerda{
+		left: 0px;
+		color: rgb(67, 95, 199);
+		font-size: 9pt;
+		border-top: 2px solid #749bd7;
+		padding-right: 254px;
+	}
+
+	div#inferior-direita p#linha{
+		display: block;
+		position: relative;
+		border-top: 2px solid #749bd7;
+		padding-bottom: 18px;
+		left: 390px;
+		top: -30px;
+		margin-right: 385px;
+		background-color: #a1bbe4;
+	}
+
+	p#square{
+		width: 0px;
+	    height: 0px;
+	    border-bottom: 42px solid #d4dded;
+	    border-right: 42px solid transparent;
+	    top: -113px;
+	    left: -53px;
+	}
+
+	p#diagonal{
+		width: 0px;
+	    height: 0px;
+	    border-bottom: 43px solid #749bd7;
+	    border-right: 43px solid transparent;
+		left: -2px;
+		top: -114px;
+	}
+
+	.direita{
+		left: 950px;
+		top: -135px;
+		margin-bottom: -100px;
+		margin-left: 8px;
+		color: #ffffff;
+		font-size: 9pt;
+	}
+
