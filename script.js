@@ -9,7 +9,7 @@ function formulario(){
 		}
 
 		if (document.form.email.value == "Web.site@exemplo.com" && document.form.senha.value == 123456){
-			document.location.assign("https://felipesaimon.github.io/orkut_login/carregando.html");
+			document.location.assign("carregando.html");
 			document.form.email.value == "";
 			document.form.senha.value == "";
 			return true;
